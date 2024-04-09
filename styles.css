@@ -1,0 +1,3 @@
+div.choiceContainer, div.playRound, .finalScore,div.currentRound, div.playAgain, h2.score {
+    display: none;
+}

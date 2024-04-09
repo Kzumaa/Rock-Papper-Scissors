@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Papper Scissors console</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <div id="startGame">
+        <label for="round">Enter number of round:</label>
+        <input type="text" name="round" id="round" required>
+        <button id="start">Start Game</button>
+    </div>
+    <div id="currentRound">
+
+    </div>
+    <div class="choiceContainer">
+        <h3 id="choice">Choose: </h3>
+        <button id="rock">Rock</button>
+        <button id="papper">Papper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="currentChoice">
+        <h3></h3>
+    </div>
+    <h2 class="score"></h2>
+    <ul id="roundHistory">
+        <h3>        </h3>
+    </ul>
+    <div class="playRound">
+        <button id="playRound">Play Round</button>
+    </div>
+    <h2 id="finalScore"></h2>
+    <div class="playAgain">
+
+    </div>
 </body>
 </html>
